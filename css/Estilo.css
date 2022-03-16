@@ -1,0 +1,131 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0;
+
+}
+
+.hero{
+    background-image: url(../imagens/topo.jpg);
+    height: 500px;
+    margin: 0;
+    background-position: auto;
+    background-size: cover;
+    border-top: 1px solid transparent;
+
+}
+
+.hero-content2{
+    text-align: center;
+    color: black;
+    margin-top: 150px;
+    
+}
+
+.hero-content2 p{
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid white;
+}
+
+.hero nav ul{
+    text-align: right;
+    background-color:transparent;
+    margin: 0px 50px 0 0;
+}
+.hero nav li{
+    display:inline-block;
+    list-style: none;
+    margin-left: 10px ;
+   padding: auto;
+}
+
+.hero nav a {
+    background: transparent;
+    display: block;
+    padding: 15px;
+    color: rgb(9, 126, 134);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+
+}
+
+.hero nav a:hover {
+    background: rgba(206, 202, 202, 0.5);
+
+
+}
+.main{
+    width: 80%;
+    margin: auto;
+}
+.card{
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.card-1, .card-2{
+    margin-right: 10px;
+}
+.card img{
+    width: 100%;
+    display: block ;
+
+}
+
+.card p{
+    color: black;
+   
+}
+
+.about{
+    text-align: left;
+    color: rgb(255, 255, 255);
+    margin-top: 150px;
+    
+}
+
+.about h2{
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+       
+}
+
+.about p{
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    
+  
+}
+.about{
+    display: inline-block;
+    border-bottom: 2px solid white;
+}
+
+.about{
+    background-image: url(../imagens/bg_detalhe.png);
+    height: 500px;
+    margin: 0;
+    background-position: auto;
+    background-size: cover;
+    border-top: 1px solid transparent;
+}
+
+.contatus{
+    text-align: center;
+}
+
+.rodape{
+    height: 80px;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	text-shadow: 2px 2px 2px black;
+	background: black;
+    line-height: 80px;
+}
